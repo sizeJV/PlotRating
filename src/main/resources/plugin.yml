@@ -1,0 +1,10 @@
+name: Plot-Rating
+main: me.size.plotrating.PlotRating
+version: 1.0.0
+author: size
+api-version: 1.13
+
+depend: [PlotSquared]
+permissions:
+  plot.rate:
+    default: op
