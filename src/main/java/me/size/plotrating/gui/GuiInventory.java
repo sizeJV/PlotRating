@@ -14,7 +14,7 @@ public class GuiInventory {
 
     public void openGUI(Player player) {
 
-        Inventory inventory = Bukkit.createInventory(player, 9 * 6, "§aPlot-Bewertung");
+        Inventory inventory = Bukkit.createInventory(player, 9 * 6, "§aPlot-Rating");
         GuiContents.getDefaultContents().forEach((k, v) -> inventory.setItem(v, k));
 
         for (int i = GuiContents.getGrid().length - 1; i >= 0; i--) {
