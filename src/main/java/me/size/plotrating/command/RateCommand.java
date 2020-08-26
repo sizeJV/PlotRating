@@ -22,7 +22,7 @@ import java.util.concurrent.CompletableFuture;
         command = "prate",
         description = "Rate a Plot",
         usage = "/plot prate",
-        permission = "plots.prate",
+        permission = "plots.rate",
         category = CommandCategory.CHAT,
         requiredType = RequiredType.NONE
 )
