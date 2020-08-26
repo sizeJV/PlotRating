@@ -24,12 +24,12 @@ public class PlotRating extends JavaPlugin {
 
         Bukkit.getPluginManager().registerEvents(new InventoryListeners(), this);
         MainCommand.getInstance().register(new RateCommand());
-        Bukkit.getConsoleSender().sendMessage("[Plot-Rating] successfully enabled plugin");
+        Bukkit.getConsoleSender().sendMessage("§8[§ePlot-Rating§8] §asuccessfully enabled plugin");
     }
 
 
     @Override
     public void onDisable() {
-        Bukkit.getConsoleSender().sendMessage("[Plot-Rating] successfully disabled plugin");
+        Bukkit.getConsoleSender().sendMessage("§8[§ePlot-Rating§8] §asuccessfully disabled plugin");
     }
 }
