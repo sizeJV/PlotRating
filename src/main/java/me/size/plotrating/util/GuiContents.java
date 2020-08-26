@@ -24,8 +24,8 @@ public class GuiContents {
 
         //CONFIRM / CANCEL
 
-        defaultContents.put(ItemBuilder.build(Material.GREEN_CONCRETE, "§aBestätigen", "§eGebe deine Bewertung ab."), 48);
-        defaultContents.put(ItemBuilder.build(Material.RED_CONCRETE, "§cAbbrechen", "§eBreche den Bewertungsprozess ab."), 50);
+        defaultContents.put(ItemBuilder.build(Material.GREEN_CONCRETE, "§aApply", "§eRate the Plot."), 48);
+        defaultContents.put(ItemBuilder.build(Material.RED_CONCRETE, "§cCancel", "§eCancel the Rating process."), 50);
     }
 
     /**
