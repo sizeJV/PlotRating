@@ -27,11 +27,11 @@ public class SettingsConfig extends AbstractConfig {
     @Override
     protected void saveDefaultConfig(FileConfiguration config) {
 
-        config.set(ITEM1, "iron_door,&eKreativitaet,&abeispiel");
+        config.set(ITEM1, "iron_door,&eCreativity,&abeispiel");
         config.set(ITEM2, "crafting_table,&eInovation,&abeispiel");
-        config.set(ITEM3, "dandelion,&eAussehen,&abeispiel");
-        config.set(ITEM4, "nether_star,&eAufbau,&abeispiel");
-        config.set(ITEM5, "command_block,&eFunktion,&abeispiel");
+        config.set(ITEM3, "dandelion,&eAppearance,&abeispiel");
+        config.set(ITEM4, "nether_star,&eAtmosphere,&abeispiel");
+        config.set(ITEM5, "command_block,&eRealism,&abeispiel");
 
         config.set("5", new String[]{"Dirt", "Dirt", "Dirt"});
         config.set("6", new String[]{"Dirt", "Iron_block", "Dirt"});
