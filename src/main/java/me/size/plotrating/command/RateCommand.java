@@ -19,10 +19,10 @@ import java.util.concurrent.CompletableFuture;
 
 
 @CommandDeclaration(
-        command = "bewerten",
-        description = "Bewerte ein Plot",
-        usage = "/plot bewerten",
-        permission = "plots.bewerten",
+        command = "prate",
+        description = "Rate a Plot",
+        usage = "/plot prate",
+        permission = "plots.prate",
         category = CommandCategory.CHAT,
         requiredType = RequiredType.NONE
 )
