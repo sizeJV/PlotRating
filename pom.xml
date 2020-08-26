@@ -13,7 +13,7 @@
 
   <name>Plot-Rating</name>
 
-  <description>Bewerte Plots</description>
+  <description>Rate Plotsquared Plots</description>
   <properties>
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
