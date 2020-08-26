@@ -22,7 +22,7 @@ public class InventoryListeners implements Listener {
 
     @EventHandler
     public void onInteract(InventoryInteractEvent event) {
-        if (!event.getView().getTitle().equalsIgnoreCase("§aPlot-Bewertung")) {
+        if (!event.getView().getTitle().equalsIgnoreCase("§aPlot-Rating")) {
             return;
         }
         event.setCancelled(true);
@@ -31,7 +31,7 @@ public class InventoryListeners implements Listener {
 
     @EventHandler
     public void onClick(InventoryClickEvent event) {
-        if (!event.getView().getTitle().equalsIgnoreCase("§aPlot-Bewertung") || event.getClickedInventory() == null
+        if (!event.getView().getTitle().equalsIgnoreCase("§aPlot-Rating") || event.getClickedInventory() == null
                 || event.getClickedInventory() == event.getWhoClicked().getInventory()) {
             return;
         }
@@ -64,7 +64,7 @@ public class InventoryListeners implements Listener {
                 event.getClickedInventory().setContents(setActive(event.getClickedInventory(), event.getSlot()).getContents());
 
                 event.getClickedInventory().setItem(event.getSlot(), ItemBuilder.build(Material.LIME_DYE, "§c" +
-                        GuiContents.getVertical(event.getSlot()), "§ePunkte"));
+                        GuiContents.getVertical(event.getSlot()), "§eScore"));
         }
     }
 
@@ -80,7 +80,7 @@ public class InventoryListeners implements Listener {
         for (int i = row.length - 1; i >= 0; i--) {
             if (action.getConfirmation(Objects.requireNonNull(inventory.getItem(row[i])).getType()) == ActionHandler.Action.ACTIVE) {
                 inventory.setItem(row[i], ItemBuilder.build(Material.GRAY_DYE, "§c" +
-                        GuiContents.getVertical(row[i]), "§ePunkte"));
+                        GuiContents.getVertical(row[i]), "§eScore"));
             }
         }
         return inventory;
