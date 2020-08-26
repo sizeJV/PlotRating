@@ -25,7 +25,7 @@ public class SignConfig extends AbstractConfig {
 
     @Override
     protected void saveDefaultConfig(FileConfiguration config) {
-        config.set(LINE1, "Bewertet von");
+        config.set(LINE1, "Rated by");
         config.set(LINE2, "&c%player%");
         config.set(LINE3, "-*-");
         config.set(LINE4, "&c%points%/25");
