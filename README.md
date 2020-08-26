@@ -6,4 +6,4 @@
 #Almost fully configurateable
 #
 #Command added: /plot prate
-#Permission added: plotsquared.prate
+#Permission added: plotsquared.rate
